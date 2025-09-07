@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaço Polly - Estética e Biomedicina</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo_spaco_polly.jpg" alt="Spaço Polly Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://wa.me/5531998812068" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+                <a href="https://instagram.com/spacopollyhair" target="_blank" class="instagram-btn">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Spaço Polly</h1>
+            <h2>Estética e Biomedicina</h2>
+            <p>Transforme sua beleza com nossos tratamentos especializados em estética e biomedicina</p>
+            <a href="#services" class="cta-button">Conheça Nossos Serviços</a>
+        </div>
+    </section>
+
+    <!-- Image Carousel -->
+    <section id="gallery" class="carousel-section">
+        <div class="container">
+            <h2>Nossos Procedimentos</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="images/limpeza_de_pele.jpg" alt="Limpeza de Pele">
+                        <div class="slide-caption">Limpeza de Pele</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/preenchimento_labial.jpg" alt="Preenchimento Labial">
+                        <div class="slide-caption">Preenchimento Labial</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/botox.jpg" alt="Botox">
+                        <div class="slide-caption">Botox</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/biomedicina_estetica.jpg" alt="Biomedicina Estética">
+                        <div class="slide-caption">Biomedicina Estética</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/peeling.png" alt="Peeling">
+                        <div class="slide-caption">Peeling</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/microagulhamento.jpg" alt="Microagulhamento">
+                        <div class="slide-caption">Microagulhamento</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/harmonizacao_facial.jpg" alt="Harmonização Facial">
+                        <div class="slide-caption">Harmonização Facial</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/tratamento_facial.jpeg" alt="Tratamento Facial">
+                        <div class="slide-caption">Tratamento Facial</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/estetica_facial.png" alt="Estética Facial">
+                        <div class="slide-caption">Estética Facial</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/rejuvenescimento.jpg" alt="Rejuvenescimento">
+                        <div class="slide-caption">Rejuvenescimento</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/lipocavitacao.jpg" alt="Lipocavitação">
+                        <div class="slide-caption">Lipocavitação</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/drenagem_linfatica.png" alt="Drenagem Linfática">
+                        <div class="slide-caption">Drenagem Linfática</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/massagem_modeladora.jpg" alt="Massagem Modeladora">
+                        <div class="slide-caption">Massagem Modeladora</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/mesoterapia.jpg" alt="Mesoterapia">
+                        <div class="slide-caption">Mesoterapia</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/criolipolise.webp" alt="Criolipólise">
+                        <div class="slide-caption">Criolipólise</div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-indicators">
+                    <span class="indicator active" onclick="currentSlide(1)"></span>
+                    <span class="indicator" onclick="currentSlide(2)"></span>
+                    <span class="indicator" onclick="currentSlide(3)"></span>
+                    <span class="indicator" onclick="currentSlide(4)"></span>
+                    <span class="indicator" onclick="currentSlide(5)"></span>
+                    <span class="indicator" onclick="currentSlide(6)"></span>
+                    <span class="indicator" onclick="currentSlide(7)"></span>
+                    <span class="indicator" onclick="currentSlide(8)"></span>
+                    <span class="indicator" onclick="currentSlide(9)"></span>
+                    <span class="indicator" onclick="currentSlide(10)"></span>
+                    <span class="indicator" onclick="currentSlide(11)"></span>
+                    <span class="indicator" onclick="currentSlide(12)"></span>
+                    <span class="indicator" onclick="currentSlide(13)"></span>
+                    <span class="indicator" onclick="currentSlide(14)"></span>
+                    <span class="indicator" onclick="currentSlide(15)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <!-- Facial Treatments -->
+                <div class="service-category">
+                    <h3>Tratamentos Faciais</h3>
+                    <div class="service-items">
+                        <div class="service-item">
+                            <img src="images/limpeza_de_pele.jpg" alt="Limpeza de Pele">
+                            <h4>Limpeza de Pele</h4>
+                            <p>Remoção de impurezas e renovação celular para uma pele mais saudável e radiante.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/botox.jpg" alt="Botox">
+                            <h4>Botox</h4>
+                            <p>Tratamento para redução de rugas e linhas de expressão, proporcionando um aspecto mais jovem.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/preenchimento_labial.jpg" alt="Preenchimento Labial">
+                            <h4>Preenchimento Labial</h4>
+                            <p>Aumento e definição dos lábios com ácido hialurônico para um resultado natural.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/peeling.png" alt="Peeling">
+                            <h4>Peeling</h4>
+                            <p>Renovação da pele através da esfoliação controlada, melhorando textura e luminosidade.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/microagulhamento.jpg" alt="Microagulhamento">
+                            <h4>Microagulhamento</h4>
+                            <p>Estímulo à produção de colágeno para redução de cicatrizes e melhora da textura da pele.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/harmonizacao_facial.jpg" alt="Harmonização Facial">
+                            <h4>Harmonização Facial</h4>
+                            <p>Conjunto de procedimentos para equilibrar e realçar a beleza natural do rosto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body Treatments -->
+                <div class="service-category">
+                    <h3>Tratamentos Corporais</h3>
+                    <div class="service-items">
+                        <div class="service-item">
+                            <img src="images/criolipolise.webp" alt="Criolipólise">
+                            <h4>Criolipólise</h4>
+                            <p>Redução de gordura localizada através do congelamento controlado das células adiposas.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/lipocavitacao.jpg" alt="Lipocavitação">
+                            <h4>Lipocavitação</h4>
+                            <p>Quebra de células de gordura através de ultrassom para redução de medidas.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/drenagem_linfatica.png" alt="Drenagem Linfática">
+                            <h4>Drenagem Linfática</h4>
+                            <p>Massagem especializada para redução de inchaço e melhora da circulação.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/massagem_modeladora.jpg" alt="Massagem Modeladora">
+                            <h4>Massagem Modeladora</h4>
+                            <p>Técnica de massagem para modelar o corpo e reduzir medidas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biomedicine Treatments -->
+                <div class="service-category">
+                    <h3>Biomedicina Estética</h3>
+                    <div class="service-items">
+                        <div class="service-item">
+                            <img src="images/mesoterapia.jpg" alt="Mesoterapia">
+                            <h4>Mesoterapia</h4>
+                            <p>Aplicação de substâncias ativas na pele para tratamento de diversas condições estéticas.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/intradermoterapia.jpg" alt="Intradermoterapia">
+                            <h4>Intradermoterapia</h4>
+                            <p>Técnica de aplicação de medicamentos na derme para tratamentos específicos.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/rejuvenescimento.jpg" alt="Rejuvenescimento">
+                            <h4>Rejuvenescimento</h4>
+                            <p>Conjunto de tratamentos para combater o envelhecimento e restaurar a juventude da pele.</p>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/biomedicina_estetica.jpg" alt="Biomedicina Estética">
+                            <h4>Avaliação Biomédica</h4>
+                            <p>Análise completa para indicação dos melhores tratamentos estéticos personalizados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Agende sua consulta</h3>
+                    <p>Estamos prontos para cuidar da sua beleza com os melhores tratamentos em estética e biomedicina.</p>
+                    <div class="contact-methods">
+                        <a href="https://wa.me/5531998812068" target="_blank" class="contact-method whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>(31) 99881-2068</p>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/spacopollyhair" target="_blank" class="contact-method instagram">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p>@spacopollyhair</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo_spaco_polly.jpg" alt="Spaço Polly Logo">
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2024 Spaço Polly - Estética e Biomedicina. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://wa.me/5531998812068" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/spacopollyhair" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
